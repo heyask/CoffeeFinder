@@ -15,7 +15,6 @@ public class SearchResult extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        System.out.println("asd");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.searchresult);
 
