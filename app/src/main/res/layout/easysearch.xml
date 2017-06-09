@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ToggleButton
+        android:id="@+id/toggleButton28"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+
+        android:background="@drawable/starbucks"
+        android:text="ToggleButton"
+        android:layout_alignTop="@+id/toggleButton29"
+        android:layout_alignLeft="@+id/toggleButton22"
+        android:layout_alignStart="@+id/toggleButton22" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton27"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+
+        android:layout_alignLeft="@+id/toggleButton22"
+        android:layout_alignStart="@+id/toggleButton22"
+        android:layout_alignTop="@+id/toggleButton23"
+        android:background="@drawable/twosome"
+        android:text="ToggleButton" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton24"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+
+        android:layout_alignLeft="@+id/toggleButton17"
+        android:layout_alignStart="@+id/toggleButton17"
+        android:layout_below="@+id/toggleButton17"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/bene"
+        android:text="ToggleButton" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/toggleButton17"
+        android:layout_centerHorizontal="true"
+        android:text="ToggleButton"
+        android:visibility="invisible" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/toggleButton23"
+        android:layout_alignStart="@+id/toggleButton23"
+        android:layout_alignTop="@+id/toggleButton21"
+        android:text="ToggleButton"
+        android:visibility="invisible" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton22"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+
+        android:layout_alignTop="@+id/toggleButton15"
+        android:layout_toLeftOf="@+id/button2"
+        android:layout_toStartOf="@+id/button2"
+        android:text="노스커피" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton21"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+
+        android:background="@drawable/ediya"
+        android:text="ToggleButton"
+        android:layout_alignBaseline="@+id/toggleButton15"
+        android:layout_alignBottom="@+id/toggleButton15"
+        android:layout_centerHorizontal="true" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton20"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+
+        android:background="@drawable/ediya"
+        android:text="ToggleButton"
+        android:layout_alignTop="@+id/toggleButton15"
+        android:layout_toRightOf="@+id/button2"
+        android:layout_toEndOf="@+id/button2" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton19"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+
+        android:text="자스민"
+        android:layout_alignTop="@+id/toggleButton15"
+        android:layout_alignLeft="@+id/toggleButton21"
+        android:layout_alignStart="@+id/toggleButton21" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/toggleButton24"
+        android:layout_alignLeft="@+id/toggleButton29"
+        android:layout_alignStart="@+id/toggleButton29" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton18"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+
+        android:layout_alignTop="@+id/toggleButton23"
+        android:layout_toEndOf="@+id/button2"
+        android:layout_toRightOf="@+id/button2"
+        android:text="빈버튼"
+        android:visibility="invisible" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton17"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+
+        android:background="@drawable/pascucci"
+        android:text="ToggleButton"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/toggleButton21"
+        android:layout_alignLeft="@+id/toggleButton21"
+        android:layout_alignStart="@+id/toggleButton21" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        android:visibility="invisible"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/toggleButton25"
+        android:layout_alignStart="@+id/toggleButton25"
+        android:layout_marginTop="24dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton14"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+
+        android:background="@drawable/angelinus"
+        android:text="ToggleButton"
+        android:layout_alignTop="@+id/toggleButton29"
+        android:layout_alignLeft="@+id/toggleButton18"
+        android:layout_alignStart="@+id/toggleButton18" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="160dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"
+        android:text="다음 " />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textSize="30dp"
+        android:text="브랜드 선택" />
+
+
+</RelativeLayout>
