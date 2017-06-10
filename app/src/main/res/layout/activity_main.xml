@@ -1,50 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:fitsSystemWindows="true">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="내위치 확인하기"
-        android:id="@+id/button"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
 
     <fragment
         android:id="@+id/map"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/button"
         class="com.google.android.gms.maps.SupportMapFragment" />
 
-    <Button
+    <com.dd.CircularProgressButton
         android:id="@+id/easysearch"
-        android:layout_width="160dp"
-        android:layout_height="75dp"
+        android:layout_width="216dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="24dp"
+        android:layout_gravity="bottom|center"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:textSize="30dp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:cpb_selectorIdle="@drawable/idle_state_selector"
+        app:cpb_selectorComplete="@drawable/complete_state_selector"
+        app:cpb_colorIndicator="@color/cpb_red"
+        app:cpb_colorIndicatorBackground="@android:color/transparent"
+        app:cpb_colorProgress="@android:color/transparent"
+        app:cpb_textComplete="곧 검색결과가 나타납니다!"
+        app:cpb_textError="오류"
+        app:cpb_textIdle="이 지역의 인기커피 검색" />
+
+
+    <com.github.rahatarmanahmed.cpv.CircularProgressView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/progress_bar"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center|center"
+        android:visibility="invisible"
+        app:cpv_animAutostart="true"
+        app:cpv_indeterminate="true"
+        app:cpv_animDuration="1600"
+        app:cpv_color="@color/cpb_red"
+        app:cpv_thickness="24px" />
+</android.support.design.widget.CoordinatorLayout>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/easysearch"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="24dp"
         android:text="간단검색" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:text="Button" />
-
-</RelativeLayout>
+</RelativeLayout>-->
